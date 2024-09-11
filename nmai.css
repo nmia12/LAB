@@ -1,0 +1,37 @@
+.cat {
+    display: block;
+    border-radius: 40%;
+    margin: 0 auto;
+    border: 1px solid #008E8C; 
+}
+h1 {
+    text-align: center;
+    color: #00B5AC;
+}
+h2 {
+    color: #008E8C;
+}
+body {
+    background-color: #DFE4E6; 
+    color: #404040;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+.th1 {
+    width: 5%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    table-layout: fixed; 
+}
+th, td {
+    border: 1px solid #404040;
+    text-align: center;
+    color: #008E8C;
+    padding: 8px; 
+}
+
+
