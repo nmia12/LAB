@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(rgb(161, 191, 248), #eaf4f8, #f1f6f8, white, #f1f6f8, #eaf4f8, rgb(161, 191, 248)); 
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 74, 115);
+    background-color: rgb(190, 218, 247);
+}
+div {
+    position: sticky;
+}
+.dimg {
+    width: 175px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;   
+}
+table, th, td {
+    border: 1px solid rgb(21, 25, 84);
+}
+.bluebold {
+    font-weight: bold;
+    color: rgb(5, 49, 181);
+}
+.grey {
+    background-color: rgb(228, 227, 227);
+}
+.submitinfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form input{
+    padding: 6px;
+    margin: 2px 0;
+    border: 1px solid #9b9a9a;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 20%;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+form button{
+    padding: 5px 20px;
+    background-color: rgb(8, 74, 115);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(57, 139, 190);
+}
