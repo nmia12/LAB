@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(#65744d, #b5c99a, #cfe1b9, #e9f5db, #cfe1b9, #b5c99a, #65744d);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+.content {
+    display: flex; 
+    flex: 1; 
+}
+.header{
+    background-color: #65744d;
+    color: #e9f5db;
+    height: 100px;
+    line-height: 100px;
+}
+.left .main .right{
+    color: #65744d;
+    height: 50%;
+}
+.left{
+    flex: 1;
+    background-color: #b5c99a;
+    width: 20%;
+    float: left;
+    border: 2px solid #e9f5db;
+    box-sizing: border-box;
+}
+.main{
+    flex: 3;
+    background-color: #cfe1b9;
+    width: 60%;
+    float: left;
+    border: 2px solid #e9f5db;
+    box-sizing: border-box;
+}
+.right{
+    flex: 1;
+    background-color: #b5c99a;
+    width: 20%;
+    float: left;
+    border: 2px solid #e9f5db;
+    box-sizing: border-box;
+}
+.footer{
+    height: 100px;
+    background-color: #65744d;
+    clear: both;
+    color: #e9f5db;
+    line-height: 100px;
+    margin-bottom: 0;
+}
+.left p{
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.left p:hover{
+    background-color: #65744d;
+}
